@@ -67,7 +67,7 @@ The dashboards visualize multiple perspectives of HR data:
 
 
 
-https://github.com/user-attachments/assets/280490d3-4fce-496e-b731-353a01697fb0
+
 
 
 
@@ -75,8 +75,6 @@ https://github.com/user-attachments/assets/280490d3-4fce-496e-b731-353a01697fb0
 🔹 **Tableau Dashboard** – Storytelling-based dashboard with drill-down analytics.
 <img width="1389" height="778" alt="image" src="https://github.com/user-attachments/assets/f25f1f02-5253-4f78-a2a9-817be1745061" />
 
-
-https://github.com/user-attachments/assets/06857229-3be4-472c-a045-7fc52637159d
 
 
 
