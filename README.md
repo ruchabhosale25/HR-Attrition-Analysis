@@ -1,104 +1,50 @@
 # 📊 HR Analytics Dashboard Project
 
 ## 📌 Project Overview
-This project focuses on building **multiple HR Analytics dashboards** using **Excel, Power BI, Tableau**, and validating all calculated KPIs with **SQL queries**.
-The approach mirrors **real-world industry practices**, where data analysts cross-check metrics across tools to ensure accuracy, reliability, and consistency of insights.
+This repository contains an **end-to-end HR Analytics** implementation with dashboards built in **Excel, Power BI, and Tableau**, and KPI validation performed with **SQL**. The objective is to replicate industry-standard analytics workflows where metrics are cross-validated across tools to ensure **accuracy, consistency, and trust** in HR decision-making.
 
-***
+---
 
 ## 🏢 Problem Statement
-The HR department struggles with:
-* Lack of clear performance indicators (KPIs) to monitor workforce health.
-* Difficulty in tracking attrition, workforce demographics, and employee satisfaction.
-* No standardized dashboards for leadership to make **data-driven HR decisions**.
+HR teams often face:
+- Lack of standardized HR KPIs for workforce monitoring.
+- Poor visibility into attrition drivers, workforce demographics, and engagement.
+- No single, validated source for leadership to make data-driven decisions.
 
-This project solves these gaps by developing **comprehensive HR dashboards** with validated metrics.
+This project builds validated, multi-platform dashboards and includes SQL checks to ensure metric parity across tools.
 
- ***
-
+---
 
 ## 🎯 Key KPIs Implemented
-* **Employee Count** – Total workforce size.
-* **Attrition Count** – Number of employees leaving the organization.
-* **Attrition Rate (%)** – Proportion of employees leaving compared to total workforce.
-* **Active Employees** – Distinguishing active vs. inactive employees.
-* **Average Age** – Workforce demographics analysis.
+- **Employee Count** — Total workforce size  
+- **Attrition Count** — Count of employees who left (in a selected period)  
+- **Attrition Rate (%)** — `Attrition Count / Employee Count * 100`  
+- **Active Employees** — Current active workforce (not terminated/left)  
+- **Average Age** — Mean age of the workforce  
 
-***
+---
 
-## 📈 Dashboard Requirements
-The dashboards visualize multiple perspectives of HR data:
-1.  **Attrition by Gender** – Identify gender-based attrition patterns.
-2.  **Department-wise Attrition** – Highlight departments with high turnover.
-3.  **Employees by Age Group** – Assess workforce demographics.
-4.  **Job Satisfaction Ratings** – Track employee engagement levels.
-5.  **Attrition by Education Field** – Spot education-related attrition trends.
-6.  **Attrition by Gender & Age Group** – Combined insights to tailor retention.
+## 📈 Dashboard Features
+- Attrition by Gender  
+- Department-wise Attrition & Trends  
+- Employee distribution by Age Group  
+- Job Satisfaction Ratings & Trends  
+- Attrition by Education Field  
+- Combined analysis: Attrition by Gender & Age Group  
+- Drill-downs (department → manager → employee level) in Power BI / Tableau
 
-***
+---
 
 ## 🛠️ Tools & Technologies
-* **SQL** – Data validation and metric cross-checking.
-* **Excel** – Quick exploratory dashboards and pivot analysis.
-* **Power BI** – Interactive and scalable HR dashboards.
-* **Tableau** – Advanced visual storytelling and drill-down analytics.
+- **SQL** — KPI calculation & validation queries  
+- **Excel** — Pivot-based EDA & quick dashboards  
+- **Power BI** — Interactive dashboards (DAX for KPIs)  
+- **Tableau** — Advanced visual storytelling & drill-downs
 
-***
+---
 
-## 📂 Project Workflow
-1.  **Data Collection & Cleaning** – Import raw HR dataset, preprocess missing values.
-2.  **SQL Validation** – Write SQL queries to calculate KPIs and cross-check against dashboard outputs.
-3.  **Dashboard Development**
-    * *Excel:* Pivot tables and charts for initial exploration.
-    * *Power BI:* KPI tracking dashboards with filters & slicers.
-    * *Tableau:* Advanced visual storytelling and department-level drill-downs.
-4.  **Insights & Reporting** – Compare attrition patterns, workforce demographics, and job satisfaction to provide actionable recommendations.
+## 📂 Suggested Repository Structure
 
-***
-
-## 📊 Dashboards
-🔹 **Excel Dashboard** – Quick analysis using pivot tables and charts.
-<img width="1185" height="699" alt="image" src="https://github.com/user-attachments/assets/4b5f281e-0b33-4a9c-ba4f-bf8fc78ac7b3" />
-
-
-🔹 **Power BI Dashboard** – Fully interactive dashboard with slicers and KPI cards.
-<img width="1280" height="718" alt="Screenshot 2025-09-19 093337" src="https://github.com/user-attachments/assets/b2da75e2-b4c4-448f-b76c-a25cdaf9ed39" />
-
-
-https://github.com/user-attachments/assets/280490d3-4fce-496e-b731-353a01697fb0
-
-
-
-
-🔹 **Tableau Dashboard** – Storytelling-based dashboard with drill-down analytics.
-<img width="1552" height="873" alt="Screenshot 2025-09-19 093226" src="https://github.com/user-attachments/assets/3469d8ab-b713-47fd-8035-cb9ffce1dc99" />
-
-
-
-https://github.com/user-attachments/assets/06857229-3be4-472c-a045-7fc52637159d
-
-
-
-
-> *(Screenshots and dashboard files are included in the repository.)*
-
-***
-
-## 💾 SQL Validation Queries
-All KPIs and dashboard visualizations were **validated using SQL queries** executed in SQL Server.
-Below are screenshots of the queries used for validation:
-
-| KPI and Charts | SQL Query Screenshot |
-| :--- | :--- |
-| Total Employee Count | ![Employee Count Query](https://github.com/user-attachments/assets/eb49d6ba-5b4e-4f23-8efc-d8f0c857240f) |
-| Attrition Count | ![Attrition Count Query](https://github.com/user-attachments/assets/b4075b9b-c2e4-4cf3-9028-fc5bce40a373) |
-| Attrition Rate (%) | ![Attrition Rate Query](https://github.com/user-attachments/assets/5c17f740-69d5-4533-97b0-bea8f531bbda) |
-| Active Employees | ![Active Employees Query](https://github.com/user-attachments/assets/d2800fed-4a90-470f-b4db-e06be7e7bc7b) |
-| Average Age | ![Average Age Query](https://github.com/user-attachments/assets/344040f8-10c9-45c5-b09c-13a9d9b6cf49) |
-| Attrition by Gender | ![Attrition by Gender Query](https://github.com/user-attachments/assets/8b73275a-7349-495f-a935-ac8746a265e5) |
-| Department-wise Attrition | ![Department Attrition Query](https://github.com/user-attachments/assets/afe4b4b7-f4d1-454e-9974-b810bcbcf462) |
-| Employees by Age Group | ![Age Band Query](https://github.com/user-attachments/assets/586cac40-d9c7-4583-9ba7-9fbc3ae59ee9) |
-| Job Satisfaction Pivot | ![Job Satisfaction Pivot](https://github.com/user-attachments/assets/9eeed97d-a741-4690-93ff-fbc2ed033aee) |
 | Education Field Attrition | ![Education Field Query](https://github.com/user-attachments/assets/6fefc9f7-be55-4686-910f-f9bb9f2c7467) |
 | Attrition by Age & Gender | ![Age & Gender Attrition Query](https://github.com/user-attachments/assets/041bb7f3-b0bc-4625-92d9-c9b6ef9a6535) |
 
