@@ -22,3 +22,5 @@ FROM hrdata;
 -- 5. Average Age 
 
 SELECT ROUND(AVG(age),0) AS Average_Age FROM hrdata;
+
+KPI sql queries.sql
