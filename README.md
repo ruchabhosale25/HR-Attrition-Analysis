@@ -84,7 +84,7 @@ The dashboards visualize multiple perspectives of HR data:
 ***
 
 ## 💾 SQL Validation Queries
-All KPIs and dashboard visualizations were **validated using SQL queries** executed in SQL Server.
+All KPIs and dashboard visualizations were **validated using SQL queries** executed in PostgreSQL.
 Below are screenshots of the queries used for validation:
 
 | KPI and Charts | SQL Query Screenshot |
