@@ -68,7 +68,7 @@ The dashboards visualize multiple perspectives of HR data:
 
 
 
-
+https://github.com/ruchabhosale25/HR-Attrition-Analysis/blob/main/Screen%20Recording%202025-10-30%20134943.mp4
 
 
 
