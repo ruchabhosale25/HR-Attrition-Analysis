@@ -58,13 +58,15 @@ The dashboards visualize multiple perspectives of HR data:
 
 ## 📊 Dashboards
 🔹 **Excel Dashboard** – Quick analysis using pivot tables and charts.
-<img width="1108" height="659" alt="image" src="https://github.com/user-attachments/assets/48488979-64ec-4c4b-802c-2a551d62629d" />
+<img width="1144" height="666" alt="image" src="https://github.com/user-attachments/assets/fd7472fb-c1f4-47bf-ab74-8f8a7a08f6e9" />
+
 
 
 
 🔹 **Power BI Dashboard** – Fully interactive dashboard with slicers and KPI cards.
-<img width="1144" height="666" alt="image" src="https://github.com/user-attachments/assets/dcad33e3-2247-491f-bf35-b74d7d24739f" />
-" />
+<img width="1310" height="751" alt="image" src="https://github.com/user-attachments/assets/2a9612a1-c88c-4650-ad71-c9c7e2563b18" />
+
+
 
 
 
