@@ -67,11 +67,10 @@ The dashboards visualize multiple perspectives of HR data:
 <img width="1310" height="751" alt="image" src="https://github.com/user-attachments/assets/2a9612a1-c88c-4650-ad71-c9c7e2563b18" />
 
 
-## 🎥 Demo
 
-[▶️ Watch the demo video]([./your-video-name.mp4](https://github.com/ruchabhosale25/HR-Attrition-Analysis/blob/main/Screen%20Recording%202025-10-30%20134943.mp4))
 
-https://github.com/ruchabhosale25/HR-Attrition-Analysis/blob/main/Screen%20Recording%202025-10-30%20134943.mp4
+
+
 
 
 
