@@ -63,7 +63,8 @@ The dashboards visualize multiple perspectives of HR data:
 
 
 🔹 **Power BI Dashboard** – Fully interactive dashboard with slicers and KPI cards.
-<img width="1315" height="742" alt="image" src="https://github.com/user-attachments/assets/fd529251-afc7-4f16-9b2b-b39d17333f77" />
+<img width="1144" height="666" alt="image" src="https://github.com/user-attachments/assets/dcad33e3-2247-491f-bf35-b74d7d24739f" />
+" />
 
 
 
